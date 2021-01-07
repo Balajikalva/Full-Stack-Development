@@ -3,7 +3,41 @@
     <head>
         <!-- <meta charset="uft"> -->
         <title>Index</title>
-        <!-- <style href = "style.css" type="text/css"></style> -->
+
+        <style>
+
+            *{
+
+                margin : 10px;
+                border : 2px solid black;
+                border-collapse: collapse;
+                padding : 5px;
+                box-sizing: border-box;
+            }
+
+            pre{
+
+                color: yellow;
+                background-color: black;
+            }
+
+            pre:hover{
+
+                color: black;
+                background-color: yellow;
+                font-size: 10px;
+            }
+
+            pre:active{
+
+                color:red;
+                /*color: black;*/
+                background-color: yellow;
+                font-size: 20px;
+                
+            }
+
+        </style>
     </head>
 
     <body>
@@ -15,22 +49,22 @@
 
                 This is Section 1
 
-                <article>
+                <article id = "art1">
                     <pre>This is first paragraph which
                                  takes 
-                        spaces in to account.
+                        spaces in to passage.
                     </pre>
                     <p>This won't take spaces in to account!</p>
                 </article>
             </section>
             <section id = "sec2">
                 This is section 2
-                <article>
+                <article id = "art2">
                     Article one of section 2
                     <pre>
                         This is first paragraph which
                                 takes 
-                        spaces in to account.
+                        spaces in this passage.
                     </pre>
                     <p>This won't take spaces in to account!</p>
                 </article>
